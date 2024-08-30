@@ -1,0 +1,202 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .social-icons {
+        gap: 1px;
+    }
+
+    .top-head-items ul li {
+        gap: 1px;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        width: 50px;
+        scale: 1.2;
+    }
+
+    #section1 {
+        padding: 0;
+    }
+    .first-section-row{
+        padding: 15px;
+    }
+    .third-section-row {
+
+        padding:0;
+        padding-top: 12px;
+    }
+    .second-sec-row ,.fourth-service-sec-row ,.introduction-container-row{
+        padding: 0;
+    }
+    .first-section-row .first-col{
+        gap: 5px;
+    }
+    .top-head-items ul{
+        padding: 2px;
+    }
+    .btn3d{
+        scale: 1;
+    }
+    .ms3{
+        margin: 1px;
+    }
+    .second-sec-row-2col-2row{
+        flex-direction: column;
+        gap: 15px;
+    }
+  
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 767px and up) */
+@media only screen and (max-width: 767px) {
+    .foot-row{
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .foot-col{
+        flex-basis: 45%;
+      
+    }
+    .intro-img-div{
+        left: 0;
+        scale: 1;
+    }
+    .intro-row-data{
+        flex-basis: 100% !important;
+    }
+    .shortcut-nav-link{
+        display: none;
+    }
+    .abt-intro-text{
+        padding: 20px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 991px) and (max-width:1200px) {
+
+    .navbar-brand {
+        scale: 1;
+        padding: 0;
+    }
+
+    .navbar-nav li {
+        margin: 0 5px;
+    }
+
+    .top-head-items ul li {
+        font-size: 0.7rem;
+    }
+   
+
+}
+
+@media only screen and (max-width: 1210px) {
+
+    .second-sec-row,
+    .fourth-service-sec-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .second-sec-row-1col,
+    .second-sec-row-2col,
+    .fourth-service-sec-row-1col,
+    .fourth-service-sec-row-2col {
+        width: 100% !important;
+    }
+
+    .first-section-row {
+        flex-direction: column;
+    }
+
+    .first-section-row .first-col-img img {
+        scale: 0.8;
+        left: 0;
+        top: 0;
+    }
+
+    .top-head-items ul {
+
+        justify-content: start;
+    }
+
+    .job-application .application-form input {
+        flex-basis: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .job-info {
+        gap: 8px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .job-container {
+        flex-basis: 100%;
+    }
+
+    .job-info {
+        gap: 80px !important;
+    }
+    #myBtn{
+        scale: 0.5;
+       right: 2px;
+    }
+    .contact-button{
+        padding: 1px;
+        bottom: 26px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar-brand {
+        padding: 0 10px;
+    
+    }
+    .job-info {
+        gap: 24px !important;
+    }
+    .first-section-row .first-col-img {
+        padding-left: 0;
+    }
+   
+}
+
+
+@media only screen and (max-width: 900px){
+
+    .logo-footer{
+        left: 1px !important;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .first-section-row .first-col-img img {
+        right: 20px;
+    }
+
+    .job-info {
+        gap: 7px;
+    }
+.fourth-service-sec-row-2col-1row {
+    padding-top: 10px;
+}
+#section4{
+    padding: 30px 0;
+}
+}

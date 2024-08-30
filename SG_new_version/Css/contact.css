@@ -1,0 +1,255 @@
+.contact-us {
+/* background-color: rgb(0, 0, 128,0.5); */
+    margin-top: 80px;
+    margin-bottom: 25px;
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid #000080; */
+    z-index: 1;
+    position: relative;
+}
+.contact-us::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3cpath d='M475.13 504.36L492.86 504.36L492.86 505.68L475.13 505.68z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M437.01 210.27L483.29 210.27L483.29 256.55L437.01 256.55z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1082.44 88.01a55.67 55.67 0 1 0-45.02 101.83z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M703.25 72.02 a40.68 40.68 0 1 0 81.36 0 a40.68 40.68 0 1 0 -81.36 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M708.4 299L713.94 299L713.94 304.54L708.4 304.54z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1157.58 540.96a30.59 30.59 0 1 0 59.68 13.48z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M823.32 282.27L873.48 282.27L873.48 320.86L823.32 320.86z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1050.28 274.28L1070.38 274.28L1070.38 298.54L1050.28 298.54z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1169.77 27.16a45.34 45.34 0 1 0-37.8 82.42z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M324.11 271.4L356.12 271.4L356.12 303.41L324.11 303.41z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M50.87 421.74 a28.97 28.97 0 1 0 57.94 0 a28.97 28.97 0 1 0 -57.94 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1398.68 558.6L1437.05 558.6L1437.05 599.53L1398.68 599.53z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M982.2 516.17 a24.25 24.25 0 1 0 48.5 0 a24.25 24.25 0 1 0 -48.5 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M446.15 389 a39.98 39.98 0 1 0 79.96 0 a39.98 39.98 0 1 0 -79.96 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1176.94 123.71L1224.54 123.71L1224.54 132.88L1176.94 132.88z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M191.97 78.03a9.04 9.04 0 1 0-13.4-12.13z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1092.05 542.63L1126.08 542.63L1126.08 576.66L1092.05 576.66z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1321.13 113.61L1349.33 113.61L1349.33 141.81L1321.13 141.81z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M721.18 293.98 a21.85 21.85 0 1 0 43.7 0 a21.85 21.85 0 1 0 -43.7 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M-11.49 523.67 a28.3 28.3 0 1 0 56.6 0 a28.3 28.3 0 1 0 -56.6 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1206.32 2.64 a10.29 10.29 0 1 0 20.58 0 a10.29 10.29 0 1 0 -20.58 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M676.92 275.55L686.02 275.55L686.02 284.65L676.92 284.65z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1308.5 499.65L1327.69 499.65L1327.69 518.84L1308.5 518.84z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M959.44 2.26a54.34 54.34 0 1 0 28.31 104.93z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M202.26 467.87a18.62 18.62 0 1 0 36.58-7z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M490.47 441.73 a49.67 49.67 0 1 0 99.34 0 a49.67 49.67 0 1 0 -99.34 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M94.51 346.17a5.5 5.5 0 1 0 10.86-1.75z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M37.32 276.45L52.78 276.45L52.78 289.48L37.32 289.48z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M146.68 137.22 a36.47 36.47 0 1 0 72.94 0 a36.47 36.47 0 1 0 -72.94 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1213.22 15.23 a50.25 50.25 0 1 0 100.5 0 a50.25 50.25 0 1 0 -100.5 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M232.92 268.33 a42.29 42.29 0 1 0 84.58 0 a42.29 42.29 0 1 0 -84.58 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M-22.38 375.58 a42.18 42.18 0 1 0 84.36 0 a42.18 42.18 0 1 0 -84.36 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1233.13 217.32L1288.7 217.32L1288.7 221.48L1233.13 221.48z' fill='%23037b0b'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size:cover;
+    background-position: center;
+    position: absolute;
+    opacity: 0.1;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.cnt {
+    margin-top: 15px;
+}
+
+.contact-image {
+    text-align: center;
+    flex-basis: 45%;
+}
+
+.contact-image img {
+    border: 2px solid #000080;
+    border-radius: 50%;
+    width: 11%;
+    margin-top: -5%;
+    transform: rotate(29deg);
+}
+
+.form-box {
+    /* margin-top: -55px; */
+    flex-basis: 50%;
+    padding: 40px;
+}
+
+
+.form-data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form form .form-row {
+    margin-bottom: 20px;
+    /* gap: 5px; */
+}
+
+.cnt-p {
+    color: #0f2caa;
+    font-size: 1.2rem;
+}
+
+.contact-form .btnContact {
+    /* width: 50%; */
+    border: none;
+    border-radius: 1rem;
+    padding: 10px;
+    background: #fe0000;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.map {
+    margin-bottom: 10px;
+
+}
+
+.map iframe {
+    height: 80vh;
+    width: 100vw;
+}
+
+.form-control {
+    background-color: rgb(15, 44, 170, 0.2);
+}
+.contact-form-btn{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+/* small screen  */
+@media only screen and (max-width: 1000px) {
+
+    .form-row {
+        gap: 20px;
+    }
+
+    .location-data {
+        flex-direction: column;
+    }
+
+    .cnt-p {
+        font-size: 1rem;
+    }
+
+    .form-box {
+        margin-top: 5px;
+    }
+
+    .form-data {
+        width: 100%;
+    }
+
+    .contact-form form {
+        padding: 2px;
+    }
+
+    .contact-image img {
+        width: 25%;
+    }
+
+    .map {
+        margin-top: 500px;
+
+    }
+
+    .map iframe {
+        height: 30vh;
+        margin: 40px;
+    }
+
+    .location-data1-time,
+    .location-data2-time {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .location-first-col {
+        flex-direction: column-reverse;
+    }
+
+    .location-second-col {
+        flex-direction: column;
+    }
+
+    .location-img1,
+    .location-img2 {
+        /* display: block; */
+        width: 100%;
+        height: 300px;
+    }
+
+    .map {
+        margin-top: 900px;
+
+    }
+}
+
+
+#notice {
+    /* padding: 20px 0; */
+    /* background-color: #f9f9f9; */
+}
+#notice {
+    
+    /* background: linear-gradient(55deg, #1D0B8E 0%, #1fc8db 51%, #12719B 100%); */
+    background: linear-gradient(22deg, #1D0B8E 0%, #1fc8db 51%, #12719B 100%);
+    padding: 80px 0;
+    z-index: 1;
+    position: relative;
+}
+
+
+#notice::before {
+    content: "";
+    background-image: url(/Images/nepal-landscape-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.1;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.alert {
+    /* background-color: #d9edf7; */
+    /* border: 1px solid #bce8f1; */
+    border-radius: 4px;
+    color: #31708f;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notice-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.notice-description {
+   font-size: clamp(14px, 2vw, 21px);
+    margin-bottom: 15px;
+}
+
+.notice-list {
+    /* list-style: none; */
+    padding: 0;
+    margin: 0 0 15px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice-list li {
+   font-size: clamp(14px, 2vw, 21px);
+    margin: 5px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.notice-list li:before {
+    content: '\2713'; /* Checkmark character */
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+}
+
+.notice-footer {
+   font-size: clamp(14px, 2vw, 21px);
+}
+
